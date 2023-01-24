@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ header {
     height: 100px;
     box-shadow: 6px 8px 7px;
     color: aliceblue;
+    font-family: 'Fredoka One', cursive;
 }
 
 h1 {
@@ -22,6 +24,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-left: 8px;
+    font-family: 'Kavoon', cursive;
 }
 
 #nav {
@@ -43,6 +46,7 @@ h1 {
 
 .option:hover {
     opacity: 0.8;
+    cursor: pointer;
 }
 
 #foto {
@@ -54,7 +58,7 @@ h1 {
     background-size: cover;
     width: 250px;
     border-radius: 125px;
-    margin-top: 16px;
+    margin-top: 24px;
     margin-bottom: 8px;
     border: 4px solid rgb(245, 206, 237);
 }
@@ -64,18 +68,23 @@ h1 {
     justify-content: center;
     color: aliceblue;
     font-size: 18px;
+    margin-bottom: 80px;
 }
 
-main > p {
+main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     color: aliceblue;
     font-size: 25px;
 }
 
-#space-white {
-    margin-top: 80px;
+#merchan {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
+
 
 .skills {
     display: flex;
@@ -88,4 +97,55 @@ main > p {
     list-style: none;
     color: aliceblue;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-com-links > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 40px;
+    gap: 15px;
+}
+
+.fa-html5 {
+    color: orange;
+}
+
+.fa-js {
+    color: yellow;
+}
+
+.fa-bootstrap {
+    color: #c998f7;
+}
+
+.fa-j {
+    color: orange;
+}
+
+.fa-css3-alt {
+    color: rgb(4, 4, 59);
+}
+
+.fa-linkedin {
+    color: rgb(32, 32, 119);
+}
+
+.fa-github {
+    color:black;
+}
+
+.fa-instagram {
+    color: indianred;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 24px;
+    margin-top: 16px;
 }
