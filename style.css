@@ -44,6 +44,19 @@ h1 {
     padding: 8px;
 }
 
+.um:hover {
+    font-size: 32px;
+}
+
+.dois:hover {
+    font-size: 32px;
+}
+
+.tres:hover {
+    font-size: 32px;
+}
+
+
 .option:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -62,6 +75,7 @@ h1 {
     margin-bottom: 8px;
     border: 4px solid rgb(245, 206, 237);
 }
+
 
 .who-iam {
     display: flex;
@@ -109,6 +123,7 @@ main {
     gap: 15px;
 }
 
+
 .fa-html5 {
     color: orange;
 }
@@ -139,6 +154,21 @@ main {
 
 .fa-instagram {
     color: indianred;
+}
+
+.fa-linkedin:hover {
+    opacity: 0.5;
+    font-size: 45px;
+}
+
+.fa-github:hover {
+    opacity: 0.5;
+    font-size: 45px;
+}
+
+.fa-instagram:hover {
+    opacity: 0.5;
+    font-size: 45px;
 }
 
 footer {
