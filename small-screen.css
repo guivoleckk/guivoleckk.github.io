@@ -8,6 +8,51 @@
        display: none;
     }
 
+    a.option.dois {
+     font-size: 20px;
+    }
+    
+    a.option.um {
+        display: none;
+    } 
+
+    h1{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .who-iam {
+        margin-top: 16px;
+    }
+
+    #foto > img{
+        max-width: 150px;
+    }
+    main > p {
+        font-size: 20px;
+    }
+
+    .skills > ul > li {
+        font-size: 20px;
+    }
+    .nav-com-links > ul > li {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .tres {
+       display: none;
+    }
+
     header > ul > li > a {
      margin: 2px;
     }
