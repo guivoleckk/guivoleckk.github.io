@@ -1,14 +1,15 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     header{
         display: flex;
         justify-content: space-between;
+        max-width: 100%;
     }
     .tres {
        display: none;
     }
 
     header > ul > li > a {
-        margin: 4px;
+     margin: 2px;
     }
 
     h1{
