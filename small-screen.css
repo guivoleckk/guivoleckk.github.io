@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    header > ul > li {
+        font-size: 15px;
+    }
+    h1{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .who-iam {
+        margin-top: 16px;
+    }
+
+    #foto > img{
+        max-width: 150px;
+    }
+    main > p {
+        font-size: 20px;
+    }
+
+    .skills > ul > li {
+        font-size: 20px;
+    }
+
+}
