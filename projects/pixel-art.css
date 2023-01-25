@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://designcomcafe.com.br/wp-content/uploads/2018/10/blog_pixel_art_capa_star_wars.jpg);
+    background-size: cover;
+    font-family: 'Condiment', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Kavoon', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(163, 34, 83);
+}
+
+#pixel-board {
+ margin: 20px auto;
+}
+
+main {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.color {
+    border-radius: 50%;
+}
+
+#button-random-color {
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
+
+#button-random-color:hover {
+    opacity: 0.8;
+}
+
+#clear-board {
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: purple;
+    color: white; 
+}
+
+#clear-board:hover {
+    opacity: 0.8; 
+}
+
+#board-size {
+    border-radius: 7px;
+}
+
+#generate-board {
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: green;
+    color: white; 
+}
+
+#generate-board:hover {
+    opacity: 0.8;
+}
