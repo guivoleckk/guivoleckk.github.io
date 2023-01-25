@@ -43,7 +43,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 380px) {
     header{
         display: flex;
         justify-content: space-between;
@@ -53,12 +53,16 @@
        display: none;
     }
 
-    header > ul > li > a {
-     margin: 2px;
+    a.option.dois {
+     font-size: 15px;
     }
+    
+    a.option.um {
+        display: none;
+    } 
 
     h1{
-        font-size: 18px;
+        font-size: 27px;
         display: flex;
         justify-content: center;
         margin-top: 8px;
