@@ -134,7 +134,6 @@ const jogarDesenhoTelaBranca = () => {
 const regularizaInput = () => {
   valorInput.type = 'number';
   valorInput.setAttribute('min', '1');
-  valorInput.value = '';
 };
 
 // só um teste para ver o dinamismo do numero no localStorage
@@ -168,7 +167,7 @@ const chamaCriacaoBoard = () => {
   const lousa = document.getElementById('pixel-board');
   lousa.innerText = null;
   if (valorInput.value === '') {
-    alert ('Board inválido!');
+    console.log('Board inválido!');
   } else {
     localStorage.setItem('boardSize', JSON.stringify(valorInput.value));
     criacaoTamanhoBoard();
